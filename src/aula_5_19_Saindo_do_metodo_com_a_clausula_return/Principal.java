@@ -21,11 +21,11 @@ public class Principal {
         voce.anoNascimento = 1970;
 
         Carro meuCarro = new Carro();
-        meuCarro.anoDeFabricacao = 2021;
+        meuCarro.anoDeFabricacao = 2010;
         meuCarro.cor = "Preto";
         meuCarro.fabricante = "Honda";
         meuCarro.modelo = "HR-V";
-        meuCarro.precoCompra = 0;
+        meuCarro.precoCompra = 100000;
         meuCarro.proprietario = eu;
 
 

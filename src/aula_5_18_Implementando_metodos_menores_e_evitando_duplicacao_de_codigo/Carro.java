@@ -23,7 +23,7 @@ public class Carro {
         return 2022 - anoDeFabricacao;
     }
 
-    double calcularIpva(){
+    double calcularIpva() {
         return calcularValorRevenda() * 0.04;
     }
 

@@ -35,7 +35,7 @@ public class Carro {
     double calcularIpva() {
         int tempoDeUsoEmAnos = calcularTempoDeUsoEmAnos();
 
-        if (tempoDeUsoEmAnos == 2022) {
+        if (tempoDeUsoEmAnos >= 10) {
             return 0;
         }
 
