@@ -6,15 +6,15 @@ public class Principal {
         paciente.altura = 1.82;
         paciente.peso = 120;
 
-
+        // CHAMA O metodo da classe  Paciente:
         IndiceMassaCorporal imc = paciente.calcularIndiceMassaCorporal();
 
+        // chama o metodo da classe IndiceMassaCorporal:
         if (imc.estaComObesidade()) {
             System.out.printf("Paciente com altura de %.2f e peso de %.2f " +
                "está com obesidade %n", imc.altura, imc.peso);
-        } else {
-            System.out.printf(" O IMC é: %.2f%n", imc.resultado);
         }
+            System.out.printf(" O IMC é: %.2f%n", imc.resultado);
 
 
     }
