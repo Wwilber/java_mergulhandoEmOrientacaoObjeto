@@ -1,11 +1,11 @@
 package aula_5_23_Metodos_com_argumentos;
-
-public class Paciente {
+//
+public class CalculadoraImc {
 
     double altura;
     double peso;
 
-    IndiceMassaCorporal calcularIndiceMassaCorporal(){
+    IndiceMassaCorporal calcular(){
         double imcCalculado = peso / (altura * altura);
 
         IndiceMassaCorporal imc = new IndiceMassaCorporal();
