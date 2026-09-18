@@ -13,10 +13,7 @@ public class Principal {
 
         double horaNormal = 10.00;
         double horaExtra = 10.00;
-        double valorRecebido = holerite.calcularValorTotal();
-
-        ContratoTrabalho contrato, double hsNormalTrabalhada,
-        double hsExtraTrabalhada, Funcionario funcionario
+        double valorRecebido = holerite.calcularValorTotal(contratoValor, hsNormalTrabalhada, hsExtraTrabalhada, f);
 
 
         ContratoTrabalho contrato, hsNormalTrabalhada,
