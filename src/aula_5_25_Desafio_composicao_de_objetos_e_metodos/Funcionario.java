@@ -4,6 +4,10 @@ public class Funcionario {
     String nome;
     int quantidadeFilhos;
 
+    boolean temFilhos(){
+        return quantidadeFilhos > 0;
+    }
 
-
+//    String nome;
+//    int quantidadeFilhos;
 }
