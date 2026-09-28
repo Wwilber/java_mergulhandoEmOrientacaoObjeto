@@ -15,7 +15,7 @@ public class Principal {
         novoProduto.alterarPrecoCusto(150);
         servicoDePrecificacao.definirPrecoVenda2(novoProduto, margem);
         // System.out.printf("Preço Venda: %.2f%n", resultado);
-        System.out.printf("Preço de Custo: %.2f%n", novoProduto.precoCusto);
+        System.out.printf("Preço de Custo alterado: %.2f%n", novoProduto.precoCusto);
         System.out.printf("Preço Venda: %.2f%n", novoProduto.precoVenda);
 
     }
