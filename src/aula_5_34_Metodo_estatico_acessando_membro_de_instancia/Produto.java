@@ -1,4 +1,4 @@
-package aula_5_33_Metodos_de_classe_estaticos;
+package aula_5_34_Metodo_estatico_acessando_membro_de_instancia;
 
 public class Produto {
 
@@ -8,10 +8,9 @@ public class Produto {
     double precoCusto;
     double precoVenda;
 
-    static double calcularCustosTotais(Produto produto) {
+    static double calcularCustosTotais(Produto produto){
         return produto.precoCusto + Produto.custoEmbalagem;
     }
-
 
     void alterarPrecoCusto(double precoCusto) {
         this.precoCusto = precoCusto;
