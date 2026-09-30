@@ -1,4 +1,4 @@
-package aula_5_37_Modificador_final_em_variaveis_locais;
+package aula_5_38_Sobrecarga_de_metodos;
 
 public class Visitante {
     static final int IDADE_MINIMA_ACESSO_RESTRITO = 18;
@@ -7,7 +7,6 @@ public class Visitante {
     int idade;
 
     boolean possuiAcessoRestritoPorIdade(){
-
         return idade < Visitante.IDADE_MINIMA_ACESSO_RESTRITO;
     }
 }
